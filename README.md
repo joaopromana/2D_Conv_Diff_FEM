@@ -31,7 +31,7 @@ where $`x_i=(x_1, x_2, x_3)=(4, 4.5, 7)`$ and $`y_i=(y_1, y_2, y_3)=(4, 4.5, 6)`
 
 ```math
 \begin{equation}
-    \int_\Omega \left( u^{n+1} v + h D \left( \nabla u^{n + 1} \cdot \nabla v \right) + h \left(\nabla w^{n + 1} \cdot \nabla u^{n + 1} \right) v \right) \ d\Omega = \int_{\Omega} \left(u^n v + h f v \right) \ d\Omega
+    \int_\Omega \left( u^{n+1} v + h D \left( \nabla u^{n + 1} \cdot \nabla v \right) + h \left(w^{n + 1} \cdot \nabla u^{n + 1} \right) v \right) \ d\Omega = \int_{\Omega} \left(u^n v + h f v \right) \ d\Omega
 \end{equation}
 ```
 
