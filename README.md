@@ -4,7 +4,7 @@ Solution of 2D Convection-Diffusion equation with Finite Elements Method. The tr
 ```math
 \begin{equation}
     \begin{dcases} 
-        \frac{\partial u}{\partial t} - D \Delta u + w \cdot \nabla u = f, \ \ \ \ \ (x, y, t) \in \Omega = (0, 10) \times (0, 10) \times I = (0, l) \\
+        \frac{\partial u}{\partial t} - D \Delta u + w \cdot \nabla u = f, \ \ \ \ \ (x, y, t) \in \Omega = (0, 10) \times (0, 10) \times I = (0, 1) \\
         u(x, y, t)=0, \ \ \ \ \ (x, y, t) \in \partial \Omega \\
         u(x, y, 0)=0, \ \ \ \ \ (x, y) \in \Omega \\
     \end{dcases}
