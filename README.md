@@ -15,7 +15,7 @@ where $`D=2.5\times10^{-3}`$ is the effective diffusivity caused by the atmosphe
 
 ```math
 \begin{equation}
-  w(x,y,t) = 10 \left( \cos\left(\frac{\pi t}{2} \right), \sin\left(\frac{\pi t}{2} \right)  \right)
+  w(x,y,t) = 10 \left( \cos\frac{\pi t}{2}, \sin\frac{\pi t}{2}  \right)
 \end{equation}
 ```
 
