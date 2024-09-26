@@ -11,7 +11,7 @@ Solution of 2D Convection-Diffusion equation with Finite Elements Method. The tr
 \end{equation}
 ```
 
-where $`D=0.0025`$ is the effective diffusivity caused by the atmospheric turbulence and $`w(x,y,t) = (w_x, w_y)`$ is the vector field of the mean wind velocity with its components given by:
+where $`D=2.5\times10^{-3}`$ is the effective diffusivity caused by the atmospheric turbulence and $`w(x,y,t) = (w_x, w_y)`$ is the vector field of the mean wind velocity with its components given by:
 
 ```math
 \begin{equation}
