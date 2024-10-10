@@ -5,6 +5,10 @@ from dolfin import *
 import numpy as np
 import matplotlib.pyplot as plt
 
+# Dirichlet boundary
+def boundary(x, on_boundary):
+    return on_boundary
+    
 # Geometric parameters
 Lx = Ly = 10
 
@@ -42,12 +46,6 @@ V = FunctionSpace(mesh, P1)
 
 # Function Space W for vector functions
 W = FunctionSpace(mesh, MixedElement([P1, P1]))
-
-
-# Dirichlet boundary
-def boundary(x, on_boundary):
-    return on_boundary
-
 
 # C++ expression for the boundary condition
 u_D = Constant(0.0)
