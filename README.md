@@ -4,18 +4,18 @@ Solution of 2D Convection-Diffusion equation with Finite Elements Method. The tr
 ```math
 \begin{equation}
     \begin{dcases} 
-        \frac{\partial u}{\partial t} - D \Delta u + w \cdot \nabla u = f, \ \ \ \ \ (x, y, t) \in \Omega = (0, 10) \times (0, 10) \times I = (0, 1) \\
+        \frac{\partial u}{\partial t} - D \Delta u + \boldsymbol{w} \cdot \nabla u = f, \ \ \ \ \ (x, y, t) \in \Omega = (0, 10) \times (0, 10) \times I = (0, 1) \\
         u(x, y, t)=0, \ \ \ \ \ (x, y, t) \in \partial \Omega \\
         u(x, y, 0)=0, \ \ \ \ \ (x, y) \in \Omega \\
     \end{dcases}
 \end{equation}
 ```
 
-where $`D=2.5\times10^{-3}`$ is the effective diffusivity caused by the atmospheric turbulence and $`w(x,y,t) = (w_x, w_y)`$ is the vector field of the mean wind velocity with its components given by:
+where $`D=2.5\times10^{-3}`$ is the effective diffusivity caused by the atmospheric turbulence and $`\boldsymbol{w}(x,y,t) = (w_x, w_y)`$ is the vector field of the mean wind velocity with its components given by:
 
 ```math
 \begin{equation}
-  w(x,y,t) = 10 \left( \cos\frac{\pi t}{2}, \sin\frac{\pi t}{2}  \right)
+  \boldsymbol{w}(x,y,t) = 10 \left( \cos\frac{\pi t}{2}, \sin\frac{\pi t}{2}  \right)
 \end{equation}
 ```
 
